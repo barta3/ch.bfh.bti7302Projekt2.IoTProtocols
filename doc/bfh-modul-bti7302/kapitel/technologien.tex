@@ -1,0 +1,43 @@
+\chapter{Technologien}
+\label{chap:technologien}
+
+\section{MQTT}
+MQTT (Message Queue Telemetry Transport) ist ein Netzwerkprotokoll, das sich dank einfachem und leichtgewichtigen Design sehr gut für Geräte mit stark eingeschränkten Ressourcen und Netzwerke mit geringer Bandbreite eignet. 
+\\
+Die erste Version von MQTT wurde 1999 von Dr. Andy Stanford-Clark (IBM) und Arlen Nipper (Arcom) beschrieben und entwickelt. Inzwischen ist MQTT in der Version 3.1.1 verfügbar und wird vom OASIS (Organization for the Advancement of Structured Information Standards) Konsortium standardisiert.
+
+
+\subsection{Publish/Subscribe}
+MQTT funktioniert nach dem Publish/Subscribe Pattern. Im Gegensatz zum klassichen Cient/Server Prinzip registrieren sich die Clients (Subscriber) bei einem Broker für bestimmte Bereiche, zu denen sie Nachrichten erhalten möchten. 
+\\ \\
+TODO Grafik analog http://www.hivemq.com/mqtt-essentials-part2-publish-subscribe
+
+\par
+Ein Publisher, (z.Bsp ein Sensor) sendet seine Nachrichten an den Broker. Alle Subscriber, die sich für den entsprechenden Bereich eingeschrieben haben, erhalten die Nachricht vom Broker. 
+\\ \\
+Diese Entkopplung der Teilnemhner bringt diverse Vorteile mit sich:
+
+\begin{itemize}
+\item Publisher und Subscriber müssen sich gegenseitig nicht kennen
+\item Clients können sich beliebig an- und abmelden
+\item Beim Ausfall eines Teilnehmers sind die anderen nicht blockiert
+\end{itemize}
+
+\subsection{Clients und Topics}
+
+\subsection{Broker}
+
+
+\subsection{Networking, OSI}
+
+\subsection{QoS}
+
+\subsection{Security}
+
+\subsection{Last Wish, Advanced Topics}
+
+\section{MQTT-SN}
+
+\subsection{Unterschiede zu MQTT}
+
+\section{CoAP}
