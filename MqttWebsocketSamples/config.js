@@ -1,0 +1,10 @@
+//host = '127.0.0.1'; // hostname or IP address
+host = '178.62.210.231';
+port = 10001;
+topic = '#'; // topic to subscribe to
+useTLS = false;
+username = null;
+password = null;
+// username = "user";
+// password = "pass";
+cleansession = true;
