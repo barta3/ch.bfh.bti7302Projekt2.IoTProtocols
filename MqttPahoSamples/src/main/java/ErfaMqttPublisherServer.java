@@ -13,8 +13,8 @@ public class ErfaMqttPublisherServer implements MqttCallback {
 
 //	final static String BROKER_URL = "tcp://iot.eclipse.org:1883";
 	//final static String BROKER_URL = "tcp://localhost:1883";
-	final static String BROKER_URL = "tcp://178.62.210.231:1883";
-//	public static final String BROKER_URL = "tcp://127.0.0.1:61613";
+	//final static String BROKER_URL = "tcp://178.62.210.231:1883";
+	public static final String BROKER_URL = "tcp://127.0.0.1:61613";
 
 	static final String RASPI_TEMP_THING = "abaertschi";
 
